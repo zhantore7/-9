@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>REWORN — Upcycled Clothing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <input type="checkbox" id="theme-toggle" class="sr-only">
+
+  <header class="site-header">
+    <a class="logo" href="#top">re<span>worn</span></a>
+    <input type="checkbox" id="menu-toggle" class="sr-only">
+    <label for="menu-toggle" class="burger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </label>
+    <nav class="nav" aria-label="Main">
+      <a href="#collections">Collections</a>
+      <a href="#philosophy">Brand Philosophy</a>
+      <a href="#process">Upcycling Process</a>
+      <a href="#stores">Stores</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-text">
+        <p class="kicker">Autumn collection</p>
+        <h1>Unique Oversized Clothing from Recycled Materials</h1>
+        <p>Every piece is cut from fabric that already had a first life.</p>
+        <a class="cta" href="#collections">View the lookbook</a>
+      </div>
+    </section>
+
+    <section id="collections" class="section">
+      <h2>Collections</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="swatch s1"></div>
+          <h3>Patchwork Denim Jacket</h3>
+          <p class="price">$85</p>
+          <p>Size: L / XL oversized</p>
+          <p>Material: 70% recycled denim, 30% organic cotton</p>
+          <button type="button">Buy</button>
+        </article>
+        <article class="card">
+          <div class="swatch s2"></div>
+          <h3>Boxy Wool Coat</h3>
+          <p class="price">$120</p>
+          <p>Size: M / L oversized</p>
+          <p>Material: 80% reclaimed wool, 20% recycled polyester</p>
+          <button type="button">Buy</button>
+        </article>
+        <article class="card">
+          <div class="swatch s3"></div>
+          <h3>Sailcloth Utility Vest</h3>
+          <p class="price">$60</p>
+          <p>Size: One size</p>
+          <p>Material: 100% reclaimed canvas</p>
+          <button type="button">Buy</button>
+        </article>
+        <article class="card">
+          <div class="swatch s4"></div>
+          <h3>Knit Sweater from Scraps</h3>
+          <p class="price">$70</p>
+          <p>Size: S / M / L</p>
+          <p>Material: 60% recycled yarn, 40% merino offcuts</p>
+          <button type="button">Buy</button>
+        </article>
+        <article class="card">
+          <div class="swatch s5"></div>
+          <h3>Wide Cargo Trousers</h3>
+          <p class="price">$75</p>
+          <p>Size: M / L</p>
+          <p>Material: 90% reclaimed cotton twill, 10% elastane</p>
+          <button type="button">Buy</button>
+        </article>
+        <article class="card">
+          <div class="swatch s6"></div>
+          <h3>Quilted Liner Jacket</h3>
+          <p class="price">$95</p>
+          <p>Size: L / XL</p>
+          <p>Material: 100% recycled polyester fill and shell</p>
+          <button type="button">Buy</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="philosophy" class="section">
+      <h2>Brand Philosophy</h2>
+      <p class="lead">We make fewer clothes, from things that already exist. Nothing is dyed twice, nothing is thrown away.</p>
+    </section>
+
+    <section id="process" class="section">
+      <h2>Upcycling Process</h2>
+      <p class="lead">We collect, sort, wash, cut and sew every piece in our local workshop.</p>
+    </section>
+
+    <section id="stores" class="section">
+      <h2>Stores</h2>
+      <p class="lead">Visit us at our workshop store or order online with delivery.</p>
+    </section>
+
+    <section id="recycle" class="section">
+      <h2>Give your old clothes a new life</h2>
+      <form class="form" action="#" method="post">
+        <label for="item">Item Specification</label>
+        <textarea id="item" name="item" rows="3" required placeholder="e.g. 5 cotton shirts, light blue"></textarea>
+
+        <label for="address">Shipping Address</label>
+        <input id="address" name="address" type="text" required placeholder="City, street, building">
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required placeholder="you@example.com">
+
+        <label for="phone">Contact Phone</label>
+        <input id="phone" name="phone" type="tel" required placeholder="+7 700 000 00 00">
+
+        <button type="submit">Send request</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <article>
+        <h2>Our manifesto</h2>
+        <p>The cleanest garment is the one that already exists. We reuse, repair and reduce.</p>
+      </article>
+      <nav aria-label="Footer">
+        <h2>Navigate</h2>
+        <a href="#collections">Collections</a>
+        <a href="#philosophy">Brand Philosophy</a>
+        <a href="#process">Upcycling Process</a>
+        <a href="#stores">Stores</a>
+      </nav>
+      <div>
+        <h2>Follow</h2>
+        <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://t.me" target="_blank" rel="noopener">Telegram</a>
+        <a href="https://tiktok.com" target="_blank" rel="noopener">TikTok</a>
+      </div>
+      <div>
+        <h2>Theme</h2>
+        <label for="theme-toggle" class="theme-btn">Invert theme</label>
+      </div>
+    </div>
+    <p class="legal">© 2026 Reworn. All rights reserved. Privacy policy · Terms of sale · Returns</p>
+  </footer>
+</body>
+</html>
+<article class="card">
+  <div class="swatch s1">
+    <img src="images/denim-jacket.jpg" alt="Patchwork Denim Jacket" loading="lazy">
+  </div>
+  <h3>Patchwork Denim Jacket</h3>
+  <p class="price">$89</p>
+  <p>Sizes: M – XL (oversized fit)</p>
+  <p>Material: 100% recycled denim</p>
+  <button type="button">Buy</button>
+</article>
